@@ -1,0 +1,45 @@
+body {
+    color: white;
+    background-image: url(imagens/Fundo.webp);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+div {
+    background-color: rgba(7, 7, 47, 0.892);
+    margin: 1.5em;
+    padding: 1.2em;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {font-style: italic;}
+h4 {text-decoration: underline;}
+
+p {
+    text-align: justify;
+    text-indent: 0.8em;
+    padding-left: 0.3em;
+}
+li {padding-top: 0.4em;}
+
+hr{
+    width: 100%;
+    color: aliceblue;
+}
+
+.ChatGPT {list-style-image: url(imagens/chatGPt_resized.png);}
+.FaceID {list-style-image: url(imagens/faceID_resized.png);}
+.GPS {list-style-image: url(imagens/gps_resized.png);}
+
+abbr, a{text-decoration: none;}
+
+a{color: aliceblue;}
+
+.Siri{list-style-image: url(imagens/Siri_resized.png);}
+.Assistant{list-style-image: url(imagens/Google_Assistant_logo_resized.png);}
+.Alexa{list-style-image: url(imagens/alexa_resized.png);}
+.Bixby{list-style-image: url(imagens/bixby_resized.png);}
