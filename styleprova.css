@@ -1,0 +1,59 @@
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-image: url(imagens/fundo-f1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    background-color: white;
+
+    padding: 15px;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+}
+
+img.logo {
+    width: 100%;
+}
+h4 {
+    background-image: url(imagens/bandeira1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-left: 10px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 4px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    text-indent: 5%;
+    line-height: 1.5rem;
+}
+
+table {
+    border-bottom: 1px solid grey;
+    padding: 2px;
+}
+table.pilotos td{
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;  
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(190, 205, 50);
+    text-decoration: underline;
+}
